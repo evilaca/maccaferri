@@ -13,8 +13,14 @@ a {
 img {
     height: 150px;
     border-radius: 100%;
+    background-color: #004851;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
+img:hover {
+    box-shadow: 0px 0px 6px #004851;
+}
 
 /* PRESENTATION */
 #presentation {
@@ -34,7 +40,7 @@ img {
 /* ************************************************************* */
 
 #skills {
-    margin: auto;
+    margin: 50px auto;
     max-width: 720px;
     padding: 20px;
 }
@@ -50,4 +56,19 @@ img {
 
 .skill h4 {
     margin-top: -7px;
+}
+
+#contact p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+#contact {
+    padding: 30px;
+    background-color: #004851;
+    color: white;
+}
+
+footer {
+    font-size: 10px;
 }
